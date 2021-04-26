@@ -1,0 +1,72 @@
+body {
+    background-color: #DC143C;
+    text-align: center;
+    font-family: times new roman;
+    font-size: 20px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    
+}
+
+img {
+    width: 300px;
+    border: 50px groove black;
+}
+
+div {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 30px;
+
+}
+
+
+h1 {
+    border: 10px groove black;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* mouse over link */
+a:link {
+    color: black;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+.resources {
+
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    border-left: 20px solid black;
+}
+
+.bio {
+    border-left: 20px solid black;
+}
+
+.beliefs {
+    border-left: 20px solid black;
+}
+
+.quotes {
+    border-left: 20px solid black;
+}
+
+h2 {
+    text-decoration: underline;
+}
